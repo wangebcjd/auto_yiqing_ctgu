@@ -1,5 +1,6 @@
 name: 三峡大学疫情自动报平安
 on:
+  workflow_dispatch:
   push:
     branches: [master]
   pull_request:
